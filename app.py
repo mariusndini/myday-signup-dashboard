@@ -42,9 +42,7 @@ st.markdown('Once you\'ve submitted your email, make sure to download your crede
 st.markdown('[Access & Architecture Slides](https://docs.google.com/presentation/d/1pHYRUULcfW-DPZJ5OzfaXL9Bh-MN4V_RfMHxdmkfQac/edit?usp=sharing)')
 st.text("")
 
-st.markdown("This text is :red[colored red], and this is **:blue[colored]** and bold.")
-
-
+st.markdown('**After** credentials are downloaded log into https://app.snowflake.com/sfsenorthamerica/snowhealth. \n\n Navtigate to the **Apps** section of Snowflake')
 
 email_input = st.text_input(
         "Enter your Snowflake E-Mail👇",
